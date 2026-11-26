@@ -38,32 +38,11 @@ header {
 
 
 .text2:hover {
-    transform: scale(1, 2)
+    transform: scale(1, 2);
 }
 
 .text1:hover {
-    animation: espandir 2s ease-in-out;
-}
-.text1 {
-    animation-name: voltar;
-    animation-duration: 2s;
-}
-
-@keyframes espandir {
-    from {
-        transform: scale(1, 1);
-    }
-    to {
-        transform: scale(1, 2);
-    }
-}
-@keyframes voltar {
-    from {
-        transform: scale(2);
-    }
-    to {
-        transform: scale(1);
-    }
+    transform: scale(1, 2);
 }
 
 main {
